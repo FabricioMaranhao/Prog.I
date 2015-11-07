@@ -54,9 +54,9 @@ int main()
         while(continuar == 's');
         percent1 = (100*(cand1/cont));
         percent2 = (100*(cand2/cont));
-        printf("\nTotal de Votos do Candidato1 = %0.f, com %1.f%% dos Votos.\n", cand1, percent1);
-        printf("\nTotal de Votos do Candidato2 = %0.f, com %1.f%% dos Votos.\n", cand2, percent2);
-        printf("\nTotal de Votantes: %0.f.\n",cont);
+        printf("\nTotal de Votos do Candidato1 = %.0f, com %.0f%% dos Votos.\n", cand1, percent1);
+        printf("\nTotal de Votos do Candidato2 = %.0f, com %.0f%% dos Votos.\n", cand2, percent2);
+        printf("\nTotal de Votantes: %.0f.\n",cont);
         return 0;
     
 }
