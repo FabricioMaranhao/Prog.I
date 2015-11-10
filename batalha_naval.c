@@ -3,7 +3,7 @@
  - Curso de Sistemas de Informacao  
  - Aluno: Fabrício Maranhão - matricula: 0050001211  
  - Professor: Alex Salgado
-*/
+*/ 
 #include<stdio.h>
 
 int main()
@@ -19,18 +19,18 @@ int main()
     {
         for (j=1; j<6; j++)
         {
-            printf("\n\n Digite a Linha %d, coluna %d:\n", i, j);
+            printf("\n\n %s, digite a Linha %d, coluna %d:\n", nome, i, j);
             scanf("%d", &matriz[i][j]);
         }
     }
    do
    {
-        printf("\nEntre com as coordenadas:");
+        printf("\n%s, entre com as coordenadas:", nome);
         printf("\nLinha: \n");
         scanf("%d", &respi);
         while(respi>5 || respi<1)
         {
-            printf("\n Entre com as coordenadas da Linha de 1 até 5:\n");
+            printf("\n %s, entre com as coordenadas da Linha de 1 até 5:\n", nome);
             scanf("%d", &respi);
         }
         
@@ -55,6 +55,6 @@ int main()
         scanf(" %c", &continuar);
    }    
         while(continuar=='s');
-        printf("\n\nVc fez %d pontos.", ponto);
+        printf("\n\n%s, vc fez %d pontos.", nome, ponto);
     return 0;
 }
