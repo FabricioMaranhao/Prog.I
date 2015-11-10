@@ -38,7 +38,7 @@ int main()
         scanf("%d", &respj);
         while(respj>5 || respj<1)
         {
-            printf("\n Entre com as coordenadas da Coluna de 1 até 5:\n");
+            printf("\n %s, entre com as coordenadas da Coluna de 1 até 5:\n", nome);
             scanf("%d", &respj);
         }
         
