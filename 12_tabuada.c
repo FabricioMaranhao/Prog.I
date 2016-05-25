@@ -12,13 +12,16 @@ int main()
     scanf("%d", &i);
 
     printf("\n");
-    
-    for(j=1; j<11; j++)
-    {
-        k = i * j;
-        printf("%d x %d = %d\n", i, j, k);
-    }
-    
+    /*for (i=1; i<10; i++)
+    {*/
+        for(j=1; j<11; j++)
+        {
+            k = i * j;
+            printf("%d x %d = %d\n", i, j, k);
+        }
+        printf("\n");
+        
+    //}
     return 0;
     
 

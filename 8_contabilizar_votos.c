@@ -29,7 +29,7 @@ int main()
     
         else
         {
-            while(voto>2)
+            while(voto>2 || voto<1)
             {
                 printf("\nVc digitou um numero errado, favor repetir.\nPara votar no Candidato1, digite 1 ou para votar no Candidato2, digite 2:\n");
                 scanf("%d", &voto);
